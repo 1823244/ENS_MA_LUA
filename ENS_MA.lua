@@ -15,17 +15,17 @@ local bit = require"bit"
 --актуальнй путь к файлам классов
 --c:\TRAIDING\ROBOTS\DEV\ENS_MA_lua\devzone\ClassesC\
 
-dofile (getScriptPath() .. "\\ClassesC\\class.luac")
-dofile (getScriptPath() .. "\\ClassesC\\Window.luac")
-dofile (getScriptPath() .. "\\ClassesC\\Helper.luac")
-dofile (getScriptPath() .. "\\ClassesC\\Trader.luac")
-dofile (getScriptPath() .. "\\ClassesC\\Transactions.luac")
-dofile (getScriptPath() .. "\\ClassesC\\SettingsMA.luac")
-dofile (getScriptPath() .. "\\ClassesC\\Security.luac")
-dofile (getScriptPath() .. "\\ClassesC\\StrategyMA.luac")
+dofile (getScriptPath() .. "\\Classes\\class.lua")
+dofile (getScriptPath() .. "\\Classes\\Window.lua")
+dofile (getScriptPath() .. "\\Classes\\Helper.lua")
+dofile (getScriptPath() .. "\\Classes\\Trader.lua")
+dofile (getScriptPath() .. "\\Classes\\Transactions.lua")
+dofile (getScriptPath() .. "\\Classes\\SettingsMA.lua")
+dofile (getScriptPath() .. "\\Classes\\Security.lua")
+dofile (getScriptPath() .. "\\Classes\\StrategyMA.lua")
 
---dofile ("C:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\NKLog.luac")
---require "NKLog"
+
+
 
 --Это таблицы:
 trader ={}
