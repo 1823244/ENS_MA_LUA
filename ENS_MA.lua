@@ -15,14 +15,14 @@ local bit = require"bit"
 --актуальнй путь к файлам классов
 --c:\TRAIDING\ROBOTS\DEV\ENS_MA_lua\devzone\ClassesC\
 
-dofile ("Z:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\class.luac")
-dofile ("Z:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\Window.luac")
-dofile ("Z:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\Helper.luac")
-dofile ("Z:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\Trader.luac")
-dofile ("Z:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\Transactions.luac")
-dofile ("Z:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\SettingsMA.luac")
-dofile ("Z:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\Security.luac")
-dofile ("Z:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\StrategyMA.luac")
+dofile (getScriptPath() .. "\\ClassesC\\class.luac")
+dofile (getScriptPath() .. "\\ClassesC\\Window.luac")
+dofile (getScriptPath() .. "\\ClassesC\\Helper.luac")
+dofile (getScriptPath() .. "\\ClassesC\\Trader.luac")
+dofile (getScriptPath() .. "\\ClassesC\\Transactions.luac")
+dofile (getScriptPath() .. "\\ClassesC\\SettingsMA.luac")
+dofile (getScriptPath() .. "\\ClassesC\\Security.luac")
+dofile (getScriptPath() .. "\\ClassesC\\StrategyMA.luac")
 
 --dofile ("C:\\TRAIDING\\ROBOTS\\DEV\\ENS_MA_lua\\devzone\\ClassesC\\NKLog.luac")
 --require "NKLog"
